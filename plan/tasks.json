@@ -1,0 +1,98 @@
+[
+  {
+    "id": "task-001",
+    "agent": "frontend-developer",
+    "description": "Set up the React project structure",
+    "file_path": "client/src/App.jsx"
+  },
+  {
+    "id": "task-002",
+    "agent": "frontend-developer",
+    "description": "Create the main layout component for the app",
+    "file_path": "client/src/components/Layout.jsx"
+  },
+  {
+    "id": "task-003",
+    "agent": "frontend-developer",
+    "description": "Develop the task list component",
+    "file_path": "client/src/components/TaskList.jsx"
+  },
+  {
+    "id": "task-004",
+    "agent": "frontend-developer",
+    "description": "Develop the task item component",
+    "file_path": "client/src/components/TaskItem.jsx"
+  },
+  {
+    "id": "task-005",
+    "agent": "frontend-developer",
+    "description": "Implement the add task functionality",
+    "file_path": "client/src/components/AddTaskForm.jsx"
+  },
+  {
+    "id": "task-006",
+    "agent": "frontend-developer",
+    "description": "Create the user authentication forms (login/signup)",
+    "file_path": "client/src/components/AuthForms.jsx"
+  },
+  {
+    "id": "task-007",
+    "agent": "backend-developer",
+    "description": "Set up the Node.js server with Express",
+    "file_path": "server/app.js"
+  },
+  {
+    "id": "task-008",
+    "agent": "backend-developer",
+    "description": "Create the database schema for tasks",
+    "file_path": "server/models/taskModel.js"
+  },
+  {
+    "id": "task-009",
+    "agent": "backend-developer",
+    "description": "Create the database schema for users",
+    "file_path": "server/models/userModel.js"
+  },
+  {
+    "id": "task-010",
+    "agent": "backend-developer",
+    "description": "Implement the task CRUD operations",
+    "file_path": "server/controllers/taskController.js"
+  },
+  {
+    "id": "task-011",
+    "agent": "backend-developer",
+    "description": "Implement the user authentication logic",
+    "file_path": "server/controllers/authController.js"
+  },
+  {
+    "id": "task-012",
+    "agent": "backend-developer",
+    "description": "Set up the routes for task operations",
+    "file_path": "server/routes/taskRoutes.js"
+  },
+  {
+    "id": "task-013",
+    "agent": "backend-developer",
+    "description": "Set up the routes for user authentication",
+    "file_path": "server/routes/authRoutes.js"
+  },
+  {
+    "id": "task-014",
+    "agent": "database-administrator",
+    "description": "Install and configure the PostgreSQL database",
+    "file_path": "server/config/databaseConfig.json"
+  },
+  {
+    "id": "task-015",
+    "agent": "database-administrator",
+    "description": "Create the initial migration for tasks table",
+    "file_path": "server/migrations/202304011030_createTasksTable.sql"
+  },
+  {
+    "id": "task-016",
+    "agent": "database-administrator",
+    "description": "Create the initial migration for users table",
+    "file_path": "server/migrations/202304011031_createUsersTable.sql"
+  }
+]
