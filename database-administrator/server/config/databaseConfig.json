@@ -1,0 +1,66 @@
+# Step 1: Update your system's package list (example for Debian-based systems)
+sudo apt update
+
+# Step 2: Install PostgreSQL
+sudo apt install postgresql postgresql-contrib
+
+# Step 3: Start the PostgreSQL service
+sudo systemctl start postgresql
+
+# Step 4: Enable PostgreSQL to start on boot
+sudo systemctl enable postgresql
+
+# Step 5: Switch to the default PostgreSQL user
+sudo -i -u postgres
+
+# Step 6: Access the PostgreSQL prompt
+psql
+
+# Inside the psql shell, you can perform initial configurations such as:
+
+# Step 7: Create a new role
+CREATE ROLE myuser WITH LOGIN PASSWORD 'mypassword';
+
+# Step 8: Create a new database
+CREATE DATABASE mydatabase;
+
+# Step 9: Grant privileges to the new user on the new database
+GRANT ALL PRIVILEGES ON DATABASE mydatabase TO myuser;
+
+# Step 10: Exit the psql shell
+\q
+
+# Step 11: Exit from the postgres user's shell
+exit
+{
+  "checklist": [
+    {
+      "task": "Update system package list",
+      "completed": true
+    },
+    {
+      "task": "Install PostgreSQL",
+      "completed": true
+    },
+    {
+      "task": "Start PostgreSQL service",
+      "completed": true
+    },
+    {
+      "task": "Enable PostgreSQL to start on boot",
+      "completed": true
+    },
+    {
+      "task": "Create a new PostgreSQL role",
+      "completed": true
+    },
+    {
+      "task": "Create a new PostgreSQL database",
+      "completed": true
+    },
+    {
+      "task": "Grant privileges to the new user",
+      "completed": true
+    }
+  ]
+}
